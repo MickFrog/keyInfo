@@ -28,11 +28,34 @@ body {
 
 .keyInfo{
     display: flex;
+    flex-direction: column;
     margin-top: 80px;
     border: 4px solid #101820FF;
     border-radius: 25px;
     height: 300px;
     width: 300px;
+}
+
+#keyCode{
+    /* background: green; */
+    color: #101820FF;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 6em;
+}
+
+#keyContent{
+    background: #101820FF;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 3em;
 }
 
 .footer{
