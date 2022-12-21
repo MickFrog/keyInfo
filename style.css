@@ -24,3 +24,14 @@ body {
     background: #F2AA4CFF;
     padding: 40px;
 }
+
+.footer{
+    display: flex;
+    padding: 20px;
+    background: #101820FF;
+    height: 60px;
+    color: #F2AA4CFF;
+    font-size: 3.2em;
+    justify-content: center;
+    align-items: center;
+}
