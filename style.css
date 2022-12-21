@@ -38,13 +38,11 @@ body {
 }
 
 #keyCode{
-    /* background: green; */
     color: #101820FF;
     flex: 1 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px 20px 0px 0px;
     font-size: 6em;
 }
 
@@ -55,7 +53,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 15px 15px;
     font-size: 3em;
 }
 
