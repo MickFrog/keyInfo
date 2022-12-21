@@ -19,10 +19,19 @@ body {
 }
 
 .content{
-    flex: 1 auto auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background: #F2AA4CFF;
     padding: 40px;
+}
+
+.keyInfo{
+    display: flex;
+    border: 4px solid #101820FF;
+    border-radius: 25px;
+    height: 300px;
+    width: 300px;
 }
 
 .footer{
