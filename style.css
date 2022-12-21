@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    padding: 20px;
+    display: flex;
+    background: #101820FF;
+    height: 100px;
+    color: #F2AA4CFF;
+    font-size: 3.2em;
+    justify-content: center;
+    align-items: center;
+}
